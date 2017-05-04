@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.leo.wiipu.servicedemo.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="START"
+        android:id="@+id/start"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BIND"
+        android:id="@+id/bind"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="START_COMMAND"
+        android:id="@+id/start_command"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="UNbind"
+        android:id="@+id/unbind"/>
+
+
+
+</LinearLayout>
